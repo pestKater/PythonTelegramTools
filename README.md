@@ -5,6 +5,14 @@ Uploads profile picture to Telegram. If you want to, you can chose up to two pic
 - Make sure Python 3 is installed and working
 - Make sure PIP is installed and working
 
+Install the required libraries:
+``` bash
+python -m pip install --upgrade dotenv
+```
+``` bash
+python -m pip install --upgrade telethon
+```
+
 ## Installation
 Go to https://my.telegram.org and login. If not already done, click on API developtment tools and create a new application. 
 Copy your API id and your API hash. 
